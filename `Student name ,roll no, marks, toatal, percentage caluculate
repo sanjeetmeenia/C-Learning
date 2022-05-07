@@ -1,0 +1,35 @@
+#include<iostream.h>
+#include<conio.h>
+
+class student
+{
+	char name[20];
+	int rno,s1,s2,s3,total;
+	float per;
+	public:
+		void getData()
+		{
+			cout<<"\nEnter Name:";
+			cin>>name;
+			cout<<"\nEnter Roll No:";
+		cin>>rno;
+		cout<<"\nEnter Three subjects Marks:";
+		cin>>s2>>s2>>s3;	
+		}
+    void Calculate()
+    {
+    	cout<<"\nName;"<<name;
+    	cout<<"\nRoll No;"<<rno;
+    	cout<<"\Total:"<<total:
+    		cout<<"\nPercentage:"<<per;
+	}
+};
+void main()
+{
+	student s;
+	clrscr();
+	s.getData();
+	sCalculate()l;
+	s.display();
+	getch();
+}
